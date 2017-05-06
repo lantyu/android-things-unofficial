@@ -46,8 +46,8 @@
 
     <title>
 
-        System Image Downloads | Android Things
-
+        <!--System Image Downloads | Android Things-->
+系统镜像下载 | Android Things
     </title>
 
     <meta name="description" content="Download Android Things Developer Preview today.">
@@ -233,17 +233,16 @@
 
                 <ul id="nav">
                     <li class="nav-section">
-                        <div class="nav-section-header empty"><a href="../hardware/index.html">Overview</a></div>
+                        <div class="nav-section-header empty"><a href="../hardware/index.html">概览</a></div>
                     </li>
                     <li class="nav-section">
-                        <div class="nav-section-header empty"><a href="../hardware/hardware-101.html">Hardware 101</a>
+                        <div class="nav-section-header empty"><a href="../hardware/hardware-101.html">硬件 101</a>
                         </div>
                     </li>
                     <li class="nav-section">
-                        <div class="nav-section-header"><a href="../hardware/developer-kits.html">Developer
-                            Kits</a><span class="toggle-icon" tabindex="0"></span></div>
+                        <div class="nav-section-header"><a href="../hardware/developer-kits.html">开发套件</a><span class="toggle-icon" tabindex="0"></span></div>
                         <ul>
-                            <li><a href="download.html">System Image Downloads</a></li>
+                            <li><a href="download.html">系统镜像下载</a></li>
                             <li class="nav-section">
                                 <div class="nav-section-header"><a href="../hardware/edison.html">Intel Edison</a><span
                                         class="toggle-icon" tabindex="0"></span></div>
@@ -289,7 +288,7 @@
                 <li class="dac-nav-item">
                     <a class="dac-nav-back-button back-to-dev" tabindex="0"
                        href="https://developer.android.com/develop/index.html">
-                        <i class="dac-sprite dac-nav-back"></i>Back to Developers
+                        <i class="dac-sprite dac-nav-back"></i>返回开发者首页
                     </a>
                 </li>
                 <li class="dac-nav-item hardware">
@@ -316,7 +315,7 @@
         <ul class="dac-header-crumbs"></ul>
         <!-- Breadcrumb Setup -->
         <script>$('.dac-nav-list').dacCurrentPage().dacCrumbs();</script>
-        <h1 itemprop="name">System Image Downloads</h1>
+        <h1 itemprop="name">系统镜像下载</h1>
 
     </div>
 
@@ -328,19 +327,20 @@
         </div><!-- relative wrapper -->
 
         <p>
-            This page contains binary image files that allow you to update or restore Android Things on a
-            supported <a href="../hardware/developer-kits.html">developer board</a>.
+            <!--This page contains binary image files that allow you to update or restore Android Things on a-->
+            <!--supported -->
+            本页面包含允许你在所支持的<a href="../hardware/developer-kits.html">开发板上</a>升级和恢复Android Things的二进制镜像文件.
         </p>
 
-        <h4 style="clear:left;margin-top:40px">Select a platform</h4>
+        <h4 style="clear:left;margin-top:40px">请选择平台</h4>
 
         <!-- Download table -->
         <table class="download">
             <tr>
-                <th>Platform</th>
-                <th>Things package</th>
-                <th>Size</th>
-                <th>SHA-1 checksum</th>
+                <th>平台</th>
+                <th>Things 包</th>
+                <th>大小</th>
+                <th>SHA-1 检查</th>
             </tr>
             <tr>
                 <td>Intel Edison</td>
@@ -386,7 +386,7 @@
             </tr>
         </table> <!-- Download table -->
 
-        <p>For more details, see the <a href="releases.html">preview release notes</a>.</p>
+        <p>更多信息,请查看 <a href="releases.html">预览发布记录</a>.</p>
 
 
         <!-- start download modal -->
@@ -398,7 +398,7 @@
                             <button class="dac-modal-header-close" data-modal-toggle></button>
                         </div>
                         <section class="dac-swap-section dac-active dac-down">
-                            <h2 class="norule dac-modal-header-title" id="tos-header">Download Android Things</h2>
+                            <h2 class="norule dac-modal-header-title" id="tos-header">下载 Android Things</h2>
                         </section>
                     </header>
                     <section class="dac-swap-section dac-active dac-left">
@@ -406,9 +406,7 @@
                             <fieldset class="dac-form-fieldset">
                                 <div class="cols">
                                     <div class="col-2of2 tos-leftCol">
-                                        <p class="sdk-terms-intro">Before downloading,
-                                            you must agree to the following terms
-                                            and conditions.</p>
+                                        <p class="sdk-terms-intro">下载前你必须同意以下条款.</p>
                                     </div>
 
                                     <div class="sdk-terms" onfocus="this.blur()">
@@ -748,9 +746,15 @@
 
 
                                     <div id="next-steps" style="display:none;position:absolute;width:inherit">
-                                        <p>You're just a few steps away from building IoT apps for Android!</p>
-                                        <p>In a moment, you'll be redirected to
-                                            <a id="next-link" href="index.html">Getting Started with Android Things</a>.
+                                        <p>
+                                            <!--You're just a few steps away from building IoT apps for Android!-->
+                                            还有几步就可以构建Android IoT应用啦!
+                                        </p>
+                                        <p>稍后页面将跳转到
+                                            <a id="next-link" href="index.html">
+                                                <!--Getting Started with Android Things-->
+                                                Android Things 入门
+                                            </a>.
                                         </p>
                                     </div><!-- end next-steps -->
 
@@ -758,8 +762,10 @@
                                         <p>
                                             <input id="agree" type="checkbox" name="agree" value="1"
                                                    onclick="onAgreeChecked()"/>
-                                            <label id="agreeLabel" for="agree">I have read and agree with the above
-                                                terms and conditions</label>
+                                            <label id="agreeLabel" for="agree">
+                                                <!--I have read and agree with the above terms and conditions-->
+                                                我已阅读并同意以上条款．
+                                            </label>
                                         </p>
                                         <p><a href="https://developer.android.com/"
                                               class="dac-button dac-raised dac-primary disabled ndk"
@@ -828,13 +834,13 @@
                 if (button) {
                     $("#downloadForRealz").html($(link).text());
                 } else {
-                    $("#downloadForRealz").html("Download " + $(link).text());
+                    $("#downloadForRealz").html("下载 " + $(link).text());
                 }
 
                 if (studio) {
-                    $("h2#tos-header").text('Download Android Things');
+                    $("h2#tos-header").text('下载 Android Things');
                 } else {
-                    $("h2#tos-header").text('Download the Command Line Tools');
+                    $("h2#tos-header").text('下载命令行工具');
                 }
 
                 $("#downloadForRealz").attr('bundle', studio);
@@ -872,8 +878,8 @@
                 if ($("input#agree").is(':checked')) {
                     $("div.sdk-terms").slideUp();
                     if ($("#downloadForRealz").attr('bundle') == 'true') {
-                        $("h2#tos-header").text('Now downloading Android Things!');
-                        $(".sdk-terms-intro").text('Redirecting to the install instructions...');
+                        $("h2#tos-header").text('现在正在下载Android Things!');
+                        $(".sdk-terms-intro").text('正在跳转到安装说明...');
                         $("#sdk-terms-form").slideUp(function () {
                             setTimeout(function () {
                                 window.location = "index.html";
