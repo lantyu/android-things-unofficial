@@ -140,7 +140,7 @@
 <ul class="dac-header-tabs">
   <li>
     <a class="dac-header-tab" href="../hardware/index.html"
-       >Hardware</a>
+       >硬件</a>
   </li>
   <li>
     <a class="dac-header-tab" href="index.html"
@@ -209,7 +209,7 @@
 
   </header>
 
-  <a name="navigation" tabindex=0 class="nav-start-marker">navigation</a>
+  <a name="navigation" tabindex=0 class="nav-start-marker">导航</a>
   <nav class="dac-nav">
     <div class="dac-nav-dimmer" data-dac-toggle-nav></div>
     <div class="dac-nav-sidebar" data-swap data-dynamic="false" data-transition-speed="300" data-dac-nav>
@@ -222,12 +222,110 @@
 
         <div class="dac-nav-sub dac-swap-section dac-right dac-active" itemscope
             itemtype="http://schema.org/SiteNavigationElement">
-          
-          
-            
-            <ul id="nav">
-              <li class="nav-section"><div class="nav-section-header empty"><a href="index.html" >Overview</a></div></li><li class="nav-section"><div class="nav-section-header"><a href="../preview/index.html" >SDK Preview</a><span class="toggle-icon" tabindex="0"></span></div><ul><li><a href="../preview/releases.html" >Release Notes</a></li></ul></li><li class="nav-section"><div class="nav-section-header"><a href="pio/index.html" >Peripheral I/O</a><span class="toggle-icon" tabindex="0"></span></div><ul><li><a href="pio/gpio.html" >GPIO</a></li><li><a href="pio/pwm.html" >PWM</a></li><li><a href="pio/i2c.html" >I2C</a></li><li><a href="pio/spi.html" >SPI</a></li><li><a href="pio/uart.html" >UART</a></li><li><a href="pio/native.html" >Native PIO</a></li></ul></li><li class="nav-section"><div class="nav-section-header"><a href="drivers/index.html" >User-space Drivers</a><span class="toggle-icon" tabindex="0"></span></div><ul><li><a href="drivers/gps.html" >GPS</a></li><li><a href="drivers/input.html" >Input</a></li><li><a href="drivers/sensors.html" >Sensors</a></li></ul></li><li class="nav-section"><div class="nav-section-header"><a href="samples.html" >Samples</a><span class="toggle-icon" tabindex="0"></span></div><ul><li class="nav-section"><div class="nav-section-header"><a href="../training/first-device/index.html"  description="Start with this class to learn the basics of Android Things development.">Building Your First Device</a><span class="toggle-icon" tabindex="0"></span></div><ul><li><a href="../training/first-device/create-studio-project.html" >Create an Android Things Project</a></li><li><a href="../training/first-device/connect-hardware.html" >Connect the Hardware</a></li><li><a href="../training/first-device/peripherals.html" >Interact with Peripherals</a></li><li><a href="../training/first-device/drivers.html" >Integrate Peripheral Drivers</a></li></ul></li><li class="nav-section"><div class="nav-section-header"><a href="../training/doorbell/index.html"  description="Build a device that captures and shares image data with a companion app using Cloud Vision and Firebase.">Building a Cloud Doorbell</a><span class="toggle-icon" tabindex="0"></span></div><ul><li><a href="../training/doorbell/button-input.html" >Implement a Doorbell Button</a></li><li><a href="../training/doorbell/camera-input.html" >Add Camera Support</a></li><li><a href="../training/doorbell/cloud-vision.html" >Analyze the Image Data</a></li><li><a href="../training/doorbell/firebase-db.html" >Synchronize with Firebase</a></li><li><a href="../training/doorbell/companion-app.html" >Implement a Companion App</a></li></ul></li><li><a href="driver-library.html" >Driver Library</a></li></ul></li>
-            </ul>
+
+
+
+          <ul id="nav">
+            <li class="nav-section">
+              <div class="nav-section-header empty"><a href="../sdk/index.html">
+                <!--Overview-->概览
+              </a></div>
+            </li>
+            <li class="nav-section">
+              <div class="nav-section-header"><a href="index.html">
+                <!--SDK Preview-->SDK 预览
+              </a><span class="toggle-icon" tabindex="0"></span>
+              </div>
+              <ul>
+                <li><a href="releases.html">
+                  <!--Release Notes-->发布记录
+                </a></li>
+              </ul>
+            </li>
+            <li class="nav-section">
+              <div class="nav-section-header"><a href="../sdk/pio/index.html">外围设备 I/O</a><span
+                      class="toggle-icon" tabindex="0"></span></div>
+              <ul>
+                <li><a href="../sdk/pio/gpio.html">GPIO</a></li>
+                <li><a href="../sdk/pio/pwm.html">电源管理</a></li>
+                <li><a href="../sdk/pio/i2c.html">I2C</a></li>
+                <li><a href="../sdk/pio/spi.html">SPI</a></li>
+                <li><a href="../sdk/pio/uart.html">UART</a></li>
+                <li><a href="../sdk/pio/native.html">本地 PIO</a></li>
+              </ul>
+            </li>
+            <li class="nav-section">
+              <div class="nav-section-header"><a href="../sdk/drivers/index.html">
+                <!--User-space Drivers-->User-space 驱动
+              </a><span class="toggle-icon" tabindex="0"></span></div>
+              <ul>
+                <li><a href="../sdk/drivers/gps.html">GPS</a></li>
+                <li><a href="../sdk/drivers/input.html">
+                  <!--Input-->输入
+                </a></li>
+                <li><a href="../sdk/drivers/sensors.html">
+                  <!--Sensors-->传感器
+                </a></li>
+              </ul>
+            </li>
+            <li class="nav-section">
+              <div class="nav-section-header"><a href="../sdk/samples.html">
+                <!--Samples-->示例
+              </a><span class="toggle-icon" tabindex="0"></span></div>
+              <ul>
+                <li class="nav-section">
+                  <div class="nav-section-header"><a href="../training/first-device/index.html"
+                                                     description="Start with this class to learn the basics of Android Things development.">
+                    <!--Building Your First Device-->构建你的第一台设备
+                  </a><span class="toggle-icon" tabindex="0"></span></div>
+                  <ul>
+                    <li><a href="../training/first-device/create-studio-project.html">
+                      <!--Create an Android Things Project-->创建一个Android Things 项目
+                    </a></li>
+                    <li><a href="../training/first-device/connect-hardware.html">
+                      <!--Connect the Hardware-->连接硬件
+                    </a></li>
+                    <li><a href="../training/first-device/peripherals.html">
+                      <!--Interact with Peripherals-->和外围设备交互
+                    </a></li>
+                    <li><a href="../training/first-device/drivers.html">
+                      <!--Integrate Peripheral Drivers-->集成Peripherals驱动
+                    </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-section">
+                  <div class="nav-section-header"><a href="../training/doorbell/index.html"
+                                                     description="Build a device that captures and shares image data with a companion app using Cloud Vision and Firebase.">
+                    <!--Building a Cloud Doorbell-->构建一个云端门铃
+                  </a><span class="toggle-icon" tabindex="0"></span></div>
+                  <ul>
+                    <li><a href="../training/doorbell/button-input.html">
+                      <!--Implement a Doorbell Button-->实现一个门铃按钮
+                    </a>
+                    </li>
+                    <li><a href="../training/doorbell/camera-input.html">
+                      <!--Add Camera Support-->添加相机支持
+                    </a></li>
+                    <li><a href="../training/doorbell/cloud-vision.html">
+                      <!--Analyze the Image Data-->分析图片数据
+                    </a></li>
+                    <li><a href="../training/doorbell/firebase-db.html">
+                      <!--Synchronize with Firebase-->和Firebase进行同步
+                    </a>
+                    </li>
+                    <li><a href="../training/doorbell/companion-app.html">
+                      <!--Implement a Companion App-->实现一个相关App
+                    </a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="../sdk/driver-library.html">
+                  <!--Driver Library-->驱动库
+                </a></li>
+              </ul>
+            </li>
+          </ul>
             
           
         </div>
@@ -238,12 +336,12 @@
   <li class="dac-nav-item">
     <a class="dac-nav-back-button back-to-dev" tabindex="0"
       href="https://developer.android.com/develop/index.html">
-      <i class="dac-sprite dac-nav-back"></i>Back to Developers
+      <i class="dac-sprite dac-nav-back"></i>返回 Developers
     </a>
   </li>
   <li class="dac-nav-item hardware">
     <a class="dac-nav-link" href="../hardware/index.html"
-       >Hardware</a>
+       >硬件</a>
   </li>
   <li class="dac-nav-item sdk">
     <a class="dac-nav-link" href="index.html"
@@ -266,7 +364,7 @@
         <ul class="dac-header-crumbs"></ul>
         <!-- Breadcrumb Setup -->
         <script>$('.dac-nav-list').dacCurrentPage().dacCrumbs();</script>
-        <h1 itemprop="name">Overview</h1>
+        <h1 itemprop="name">概览</h1>
         
       </div>
       
@@ -407,9 +505,9 @@ APIs.</p>
     <div class="cols dac-footer-main">
       <div class="col-1of2">
         <div class="dac-footer-contact">
-          <a class="dac-footer-contact-link" id="newsletter" data-modal-toggle="newsletter" title="Newsletter">Newsletter</a>
-          <a class="dac-footer-contact-link" href="https://android-developers.blogspot.com/" title="Blog">Blog</a>
-          <a class="dac-footer-contact-link" href="https://developer.android.com/support.html" title="Support">Support</a>
+          <a class="dac-footer-contact-link" id="newsletter" data-modal-toggle="newsletter" title="Newsletter">联系方式</a>
+          <a class="dac-footer-contact-link" href="https://android-developers.blogspot.com/" title="Blog">博客</a>
+          <a class="dac-footer-contact-link" href="https://developer.android.com/support.html" title="Support">支持</a>
         </div>
       </div>
       <div class="col-1of2 dac-footer-reachout">
